@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: false})); // 表单请求
 let pool;
 repool();
 
-function Result({code = 200, msg= '', data = {}}) {
+function Result({code = 200, msg= '', data = null}) {
     this.code = code;
     this.msg = msg;
     this.data = data;
