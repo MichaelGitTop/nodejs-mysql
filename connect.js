@@ -8,7 +8,7 @@ const router = express.Router();
 const option = {
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: '123456',
     port: '3306',
     database: 'michael',
     connectTimeout: 5000,       // 连接超时
